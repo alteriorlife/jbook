@@ -1,0 +1,6 @@
+Undergraduate CS course --- good stuff with lots of stories, exercises, etc.
+http://www.xplorecs.org/
+
+	
+Computational Biology / Biological Computing
+https://computingbiology.github.io/
