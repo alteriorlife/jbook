@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>1.2. Environment &#8212; Coding 101</title>
+    <title>1.4. A Jupyter Notebook &#8212; Coding 101</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -52,8 +52,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="1.3. Coding Environment Part II" href="../coding_environment_ii/index.html" />
-    <link rel="prev" title="1.1. Coding as a Manual Labor" href="../typewriter/index.html" />
+    <link rel="prev" title="1.3. Coding Environment Part II" href="../coding_environment_ii/index.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -129,8 +128,8 @@ const thebe_selector_output = ".output, .cell_output"
      1.1. Coding as a Manual Labor
     </a>
    </li>
-   <li class="toctree-l2 current active">
-    <a class="current reference internal" href="#">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../coding_environment_i/index.html">
      1.2. Environment
     </a>
    </li>
@@ -139,8 +138,8 @@ const thebe_selector_output = ".output, .cell_output"
      1.3. Coding Environment Part II
     </a>
    </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../coding_environment_iii/index.html">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
      1.4. A Jupyter Notebook
     </a>
    </li>
@@ -197,6 +196,35 @@ title="Toggle navigation"
         
     </div>
     <div class="header-article__right">
+<div class="menu-dropdown menu-dropdown-launch-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Launch interactive content">
+      <i class="fas fa-rocket"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/main?urlpath=tree/docs/01-intro/coding_environment_iii/index.ipynb"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Launch on Binder"
+>
+  
+
+<span class="headerbtn__icon-container">
+  
+    <img src="../../_static/images/logo_binder.svg">
+  </span>
+<span class="headerbtn__text-container">Binder</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
 <button onclick="toggleFullScreen()"
   class="headerbtn"
   data-toggle="tooltip"
@@ -236,7 +264,7 @@ title="Source repository"
       </li>
       
       <li>
-        <a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2F01-intro/coding_environment_i/index.html&body=Your%20issue%20content%20here."
+        <a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2F01-intro/coding_environment_iii/index.html&body=Your%20issue%20content%20here."
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -264,7 +292,7 @@ title="Open an issue"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="../../_sources/01-intro/coding_environment_i/index.md"
+        <a href="../../_sources/01-intro/coding_environment_iii/index.ipynb"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -275,7 +303,7 @@ title="Download source file"
 <span class="headerbtn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="headerbtn__text-container">.md</span>
+<span class="headerbtn__text-container">.ipynb</span>
 </a>
 
       </li>
@@ -313,7 +341,7 @@ title="Print to PDF"
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Environment</h1>
+                <h1>A Jupyter Notebook</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -325,12 +353,24 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="environment">
-<h1><span class="section-number">1.2. </span>Environment<a class="headerlink" href="#environment" title="Permalink to this headline">#</a></h1>
-<p><img alt="coding" src="../../_images/coding.png" /></p>
-<p>‘Coding’ is a misnomer and we’ll see how that is in a bit.</p>
-<p>But before you start to code or program, you need a place to do it, i.e., you need a coding environment or ‘runtime.’</p>
-<p>These days you have a number of options, the best being on your own machine, i.e., your own computer.  However, often it’s better to be in</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="a-jupyter-notebook">
+<h1><span class="section-number">1.4. </span>A Jupyter Notebook<a class="headerlink" href="#a-jupyter-notebook" title="Permalink to this headline">#</a></h1>
+<p>A <code class="docutils literal notranslate"><span class="pre">Juptyer</span> <span class="pre">Notebook</span></code> is a combination of coding environment and text/graphical content.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># For example, in this cell is Python code ...</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello, World&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Hello, World
+</pre></div>
+</div>
+</div>
+</div>
+<p>You can see the command to print ‘Hello, World’ and the result below.</p>
+<p>But a lot more can be done, and we’ll get into that over the next few days.</p>
 </section>
 
     <script type="text/x-thebe-config">
@@ -346,7 +386,7 @@ title="Print to PDF"
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./01-intro/coding_environment_i"
+            path: "./01-intro/coding_environment_iii"
         },
         predefinedOutput: true
     }
@@ -360,19 +400,12 @@ title="Print to PDF"
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="../typewriter/index.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="../coding_environment_ii/index.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title"><span class="section-number">1.1. </span>Coding as a Manual Labor</p>
+            <p class="prev-next-title"><span class="section-number">1.3. </span>Coding Environment Part II</p>
         </div>
-    </a>
-    <a class='right-next' id="next-link" href="../coding_environment_ii/index.html" title="next page">
-    <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><span class="section-number">1.3. </span>Coding Environment Part II</p>
-    </div>
-    <i class="fas fa-angle-right"></i>
     </a>
 </div>
             </footer>

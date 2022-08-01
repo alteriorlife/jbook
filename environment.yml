@@ -1,0 +1,13 @@
+name: jupyterbook-env
+channels:
+  - defaults
+dependencies:
+  - jupyter-book
+  - pandas
+  - numpy
+  - matplotlib
+  - scipy
+  - termcolor
+  - ghp-import
+  - sphinx-sitemap
+prefix: /opt/anaconda3/envs/jupyterbook-env
