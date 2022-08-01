@@ -10,4 +10,6 @@ dependencies:
   - termcolor
   - ghp-import
   - sphinx-sitemap
+  - python
+  - pip
 prefix: /opt/anaconda3/envs/jupyterbook-env
