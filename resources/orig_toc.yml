@@ -1,9 +1,0 @@
-# Table of contents
-# Learn more at https://jupyterbook.org/customize/toc.html
-
-format: jb-book
-root: pages/intro
-chapters:
-- file: pages/lesson_00/index
-- file: pages/lesson_01/index
-- file: pages/quotes/index
