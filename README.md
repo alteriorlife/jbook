@@ -22,6 +22,8 @@ Commands:
 
 ```
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/alteriorlife/jbook/main)
+
 ## The book building process
 
 Building a Jupyter Book broadly consists of these steps:
